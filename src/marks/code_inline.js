@@ -6,7 +6,7 @@ export default class CodeInline extends Mark {
     return 'code_inline';
   }
 
-  get schema() {
+  get schema( {
     return {
       rank: 10,
       code: true,
